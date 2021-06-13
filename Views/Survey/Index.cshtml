@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Form Demo</title>
+    </head>
+    <body>
+        <div style = "margin: 20px; padding: 10px; border: 2px solid black">
+            <form action="result" method="post">
+                <label for="">Your Name:</label>
+                <input type="text" name="NameInput"><br>
+                <label for="">Dojo Location:</label>
+                <select name="DojoInput" id="">
+                    <option value="seattle">Seattle</option>
+                    <option value="sanFrancisco">San Francisco</option>
+                    <option value="austin">Austin</option>
+                </select><br>
+                <label for="">Favorite Language:</label>
+                <select name="LangInput" id="">
+                    <option value="c#">C#</option>
+                    <option value="python">Python</option>
+                    <option value="react">React</option>
+                </select><br>
+                <label for="">Comment (optional):</label><br>
+                <textarea name="CommentInput" style = "width: 350px; height: 75px; padding-top: 0; padding-left: 0;"></textarea><br>
+                <button>Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
